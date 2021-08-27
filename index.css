@@ -25,10 +25,6 @@ body {
 	width: 280px;
 	padding: 50px;
 	color: hsla(0, 0%, 100%, 0.75);
-	/* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
 }
 .card:first-child {
 	background-color: hsl(31, 77%, 52%);
@@ -72,7 +68,6 @@ body {
 
 @media (max-width: 375px) {
 	body {
-		/* width: 100vw; */
 		min-height: 100vh;
 		display: flex;
 		justify-content: center;
