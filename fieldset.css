@@ -1,0 +1,39 @@
+body {margin:0;}
+
+.Menu {
+  overflow: hidden;
+  background-color: #ccff99;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.Menu a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.Menu a:hover {
+  background: #ddd;
+  color: black;
+}
+.form-row {
+   width: 500px;
+   height: 300px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  margin-top: -100px; 
+  margin-left: -150px; 
+  background-color:  #d9d9d9;
+  padding: 15px;
+}
+.required {
+  color: red;
+}
+
